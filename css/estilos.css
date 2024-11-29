@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before{
+  content: attr(type);
+  display: block;
+
+}
+form{
+    border: solid red;
+    padding: 30px;
+    border: solid black;
+    background: #1d4e50c6;
+    border-radius: 20px;
+}
+.container-copia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    outline: none;
+    background:  #389194c6;
+    color: black;
+    font-size: 18px;
+    border: none;
+}
+body{
+    background-color: #389194c6;
+}
+
+button{
+    cursor: pointer;
+    background: #31a4a8c6;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+}
+button:hover{
+    background: #23777ac6;
+}
+#json{
+    height: 100px;
+}
